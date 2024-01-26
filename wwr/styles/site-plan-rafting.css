@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #d2b8c7  ;
+    --secondary-color: #396e94c5 ;
+    --accent1-color: #3b9ea177;
+    --accent2-color: #fb00d1;
+  
+
+    --heading-font: "Rock Salt ";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+
+    --paragraph-background-color: #396E94  ;
+    --nav-link-color: #399476c2;
+    --nav-background-color: #398e9460;
+    --nav-hover-link-color: #f5f5f5;
+    --nav-hover-background-color: #f5f5f5c5;
+  }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(129, 127, 255, 0.89);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color); 
+}
+
+p{
+    padding: 25px
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color:  var(--nav-background-color);
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hoover {
+    color: var(--nav-hoover-link-color);
+    background-color: var(--nav-hoover-background-color);
+}
