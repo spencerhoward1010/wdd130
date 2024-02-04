@@ -4,23 +4,24 @@ main {
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba (0, 0, 0, 0.2); /* 1 */
+    border: 1px solid rgba (0, 0, 0, 0.2) ; /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333
     text-align: center
 }
+
 aside img {
     width : 200px;
     height : auto;
 }
-main img{
+main img {
     width : 150px;
     height : auto;
 }
 p { padding: 0;}
 footer {
     margin-top : 15px;
-    border-top : 1px solid #000;
+    border-top : 1px solid #00000094;
     text-align : center;
 }
