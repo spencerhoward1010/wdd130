@@ -54,7 +54,7 @@ nav a {
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
-nav a:hoover{
+nav a:hover{
     color: var(--nav-hoover-link-color);
     background-color: var(--nav-hoover-background-color);
 }
