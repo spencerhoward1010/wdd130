@@ -4,9 +4,9 @@ main {
 
 aside{
     width: 20rem;
-    margin: 1rem;
+    margin: 0rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
-    padding: 1rem;
+    padding: 0rem;
     background-color: #eee;
     color: #333;
     text-align: center;
